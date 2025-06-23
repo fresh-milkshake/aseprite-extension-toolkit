@@ -1,0 +1,15 @@
+[project]
+name = "aseprite-extension-live-reload"
+version = "1.0.0"
+description = "Aseprite extension packaging and live reload tool"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.0.0",
+    "pyinstaller>=6.14.1",
+    "watchdog>=3.0.0",
+]
+authors = [
+    { name = "fresh-milkshake" }
+]
+license = {file = "LICENSE.txt"}
